@@ -1,0 +1,23 @@
+header{
+    display: none;    
+}
+body{
+    text-align: justify;
+    color:black;    
+    
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+body fieldset{
+    border: none;
+}
+
+
+body img{
+    display: none;
+}
+footer{
+    display: none;
+}

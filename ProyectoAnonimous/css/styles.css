@@ -8,6 +8,7 @@ body{
     color: #ffffff;
     background-size:100% 100%;
     background-attachment:fixed;
+    text-align: justify;
 }
 
 header{
@@ -16,7 +17,7 @@ header{
     background:#252932 ;
     margin-bottom: 20px;
     position: fixed;
-    opacity: 1;
+   
     
 }
 .wrapper{
@@ -105,17 +106,19 @@ fieldset{
 }
 
 .login{
-    padding: 2em;
-   
+    padding: 2em;   
     color: #cf0404;
     border-radius: 1em;
-    background: rgba(0, 0, 0, 0.9)
+    background: rgb(0, 0, 0)
 }
 .login {
     padding: 2em;
 }
-.login .regacc{
+.login .regacc, label{
     width: 98%;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Kristen ITC';
 }
 .indice{
     margin: 1em;
@@ -133,7 +136,7 @@ body a{
 }
 
 .imgcuerpo {
-    position: relative;    
+      
     margin:auto;
     width:420px;
     height: 240px;
@@ -142,7 +145,7 @@ body a{
     color:#ffffff;
 }
 .imgcuerpo  h2{
-        position: absolute;
+        padding: 1em;
         left:20px;
         top:20px;          
         
@@ -164,11 +167,8 @@ body a{
 
 table{
     text-align: left;
-    width: 100%;
-    border:none;
-    border-collapse: collapse;
-    
-    
+    width: 100%;    
+    border-collapse: collapse;   
 }
 th,td{
     padding: 20px;
